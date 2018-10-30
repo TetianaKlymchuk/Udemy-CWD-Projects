@@ -1,21 +1,22 @@
-#container {
+#container{
     width: 1050px;
-    border: 1px solid grey;
-    margin: 0 auto;
+    /* border: 1px solid grey;*/
 }
-
-h1 a {
-    font-size: 50px;
-    font-weight: 100px;
-    color: #861BBF;
-    text-decoration: none;
-
-}
-
 
 #header{
     height: 100px;
     padding: 10px 0;
+}
+
+#brand{
+    float: left;
+}
+
+h1 a{
+    font-size: 50px;
+    font-weight: 100;
+    color: #861BBF;
+    text-decoration: none;
 }
 
 #searchBox{
@@ -27,18 +28,14 @@ h1 a {
     margin-top: 20px;
 }
 
-#brand{
-    float: left;
-}
 
 .text{
     float: left;
-    width: 150px;
+    width: 200px;
     padding: 5px;
     font-size: 15px;
     color: #E36A0C;
     background: white url(images/search.png) right center no-repeat;
-
 }
 
 .submit{
@@ -48,7 +45,7 @@ h1 a {
     color: white;
     background: #861BBF;
     font-size: 15px;
-
+    border: 1px solid #DCD5E1;
 }
 
 .clear{
@@ -61,11 +58,11 @@ h1 a {
     padding: 7px 0;
 }
 
- ul{
+ul{
      list-style: none;
 }
 
- #menu ul li{
+#menu ul li{
      float: left;
      padding: 0 30px;
      height: 30px;
@@ -76,18 +73,35 @@ h1 a {
     border-right: none;
 }
 
- #menu ul li a{
+#menu ul li a{
     text-decoration: none;
     text-transform: uppercase;
     font-size: 17px;
     color:  #5d12e7;
     line-height: 30px;
     transition: font-size 0.3s ease;
- }
+}
 
- #menu ul li a:hover, #menu ul li a.active{
+#menu ul li a:hover, #menu ul li a.active{
      font-size: 20px;
      font-weight: bold;
      color: #B314DB;
+}
 
- }
+#introduction{
+     background: linear-gradient(#E5F2BB, #B7E952);
+     padding: 30px;
+     margin: 16px 0;
+}
+
+#introduction h3{
+    font-size: 45px;
+    color: #316901;
+    font-weight: normal;
+}
+
+#introduction p{
+    font-size: 25px; 
+    color: #628F19;
+    text-align: justify;
+}
