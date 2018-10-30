@@ -1,5 +1,6 @@
 #container{
     width: 1050px;
+    margin: 0 auto;
     /* border: 1px solid grey;*/
 }
 
@@ -104,4 +105,53 @@ ul{
     font-size: 25px; 
     color: #628F19;
     text-align: justify;
+}
+
+.sidebar{
+    height: 520px;
+    width: 450px;
+    border: 1px solid rgb(29, 141, 185);
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+
+.sidebar h3{
+    color: #861BBF;
+    font-size: 30px;
+}
+
+.sidebar ul{
+    padding-top: 3px;
+}
+
+#leftsidebar ul li{
+    padding: 3px 0 6px 10px;
+    list-style-image: url(images/arrow.png);
+}
+
+#rightsidebar ul li{
+    padding: 16px 0 16px 60px;
+    background: url(images/tick.png) no-repeat left center;
+}
+
+.sidebar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #5d12e7;
+}
+
+.sidebar ul li a:hover, .sidebar ul li a.active{
+    text-decoration: none;
+    color: #B314DB;
+    font-size: 23px;
+    font-weight: bold;
+    transition: font-size 0.3s ease;
+}
+
+#leftsidebar{
+    float: left;
+}
+
+#rightsidebar{
+    float: right;
 }
