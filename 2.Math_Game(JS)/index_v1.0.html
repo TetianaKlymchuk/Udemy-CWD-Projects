@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Maths Game</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width = device-width
+    initial-scale=1, user-scalable=yes">
+        <link rel="stylesheet" href="styling_v1.0.css">
+    </head>
+    <body>
+        <div id="container">
+            <div id="score"> 
+                Score: <span id="scorevalue">0</span>
+            </div>
+            <div id="correct">
+                Correct
+            </div>
+            <div id="wrong">
+                Try again!
+            </div>
+            <div id="question">
+            </div>
+            <div id="instruction">
+            </div>
+            <div id="choices"> 
+                <div id="box1" class="box" onclick="clickOnAnswer(event)"> </div>
+                <div id="box2" class="box" onclick="clickOnAnswer(event)"> </div>
+                <div id="box3" class="box" onclick="clickOnAnswer(event)"> </div>
+                <div id="box4" class="box" onclick="clickOnAnswer(event)"> </div>
+            </div>
+            <div id="startreset">
+                Start Game
+            </div>
+            <div id="timeremaining">
+                Time remaining: <span id="timeremainingvalue"></span> sec
+            </div>
+            <div id="stopMusic"> 
+                <audio id = "audio" src="melodia.mp3" ></audio>
+                <img id ="playerOff" src="off.png" width="40px" height="40px" alt="feather" onclick="play()" >
+                <img id ="playerOn" src="on.png" width="40px" height="40px" alt="feather" onclick="play()" >
+            </div>
+        </div>
+        <div id="gameOver">
+            <div id="pictureGameOver"> <img id ="picture" src="gameOver.png" ></div>
+        </div>
+        <div > 
+            <img id="mathGame" src="math.jpg">
+        </div>
+    <script type="text/javascript" src="javascript_v1.0.js"></script>
+    </body>
+</html>
+
+

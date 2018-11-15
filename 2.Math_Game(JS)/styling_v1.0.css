@@ -1,0 +1,197 @@
+html{
+    height: 100%;
+    background: radial-gradient(circle, #fff, rgb(92, 27, 27));   
+}
+#container{
+    height: 400px;
+    width: 550px;  
+    background-color: rgb(124, 231, 124); 
+    margin: 100px auto; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 0px 0px #2e7a02;
+    -moz-box-shadow: 4px 4px 0px 0px #2e7a02;
+    -webkit-box-shadow: 4px 4px 0px 0px #2e7a02;
+    position: relative;
+}
+#score{
+    background-color: #e6f05d;
+    color: #8d961a;
+    padding: 10px;
+    border-radius: 4px;
+    position: absolute;
+    left: 500px;
+    box-shadow: 0px 4px 0px 0px #8d961a;
+    -moz-box-shadow: 0px 4px 0px 0px #8d961a;
+    -webkit-box-shadow: 0px 4px 0px 0px #8d961a;
+    display:none;
+}
+#correct{
+    position: absolute;
+    left: 260px;
+    background-color: #0da326;
+    color: white;
+    padding: 11px;
+    display: none;
+}
+#wrong{
+    position: absolute;
+    left: 250px;
+    background-color: #a30d0d;
+    color: white;
+    padding: 11px;
+    display: none;
+}
+#question{
+    width: 450px;
+    height: 135px;
+    margin: 50px auto 10px auto;
+    background-color:#c06b6b;
+    box-shadow: 0px 4px #832828;
+    -moz-box-shadow: 0px 4px #832828;
+    -webkit-box-shadow: 0px 4px #832828;
+    font-size: 100px;
+    text-align: center;
+    font-family: cursive, sans-serif;
+    color: black;
+    line-height: 140px;
+}
+#instruction{
+    width: 450px;
+    height: 50px;
+    background-color: #c0a5a5;
+    margin: 10px auto;
+    text-align: center;
+    line-height: 45px;
+    box-shadow: 0px 4px #b96d6d;
+    -moz-box-shadow: 0px 4px #b96d6d;
+    -webkit-box-shadow: 0px 4px #b96d6d;
+}
+#choices{
+    width: 450px;
+    height: 100px;
+    margin: 5px auto;
+}
+.box{
+    width: 85px;
+    height: 85px;
+    background-color: white;
+    float: left;
+    margin-right: 36px;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    line-height: 80px;
+    position: relative;
+    transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    pointer-events: none;
+}
+.box:hover, #startreset:hover{
+    background-color: #521b1b;
+    color: white;
+    box-shadow: 0px 4px #2e0e0e;
+    -moz-box-shadow: 0px 4px #2e0e0e;
+    -webkit-box-shadow: 0px 4px #2e0e0e;
+}
+#box4{
+    margin-right: 0;
+}
+.box:active, #startreset:active{
+    box-shadow: 0px 0px #2e0e0e;
+    -moz-box-shadow: 0px 0px #2e0e0e;
+    -webkit-box-shadow: 0px 0px #2e0e0e;
+}
+#startreset{
+    width: 80px;
+    padding: 10px;
+    background-color: rgba(255,255,255,0.5);
+    margin: 0 auto;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    position: relative;
+    transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    z-index: 3;
+}
+#timeremaining{
+    padding: 10px;
+    position: absolute;
+    top: 380px;
+    left: 400px;
+    background-color: rgba(181,235,36,0.75);
+    border-radius: 3px;
+    box-shadow: 0px 4px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+    display:none;
+}
+#gameOver{
+    height: 330px;
+    width: 550px;
+    background: linear-gradient(#eead20, #cf3b15); 
+    color: white;
+    font-size: 2.5em;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    top: 320px;
+    left: 50%;
+    z-index: 2;
+    transform: translate(-50%, -50%);
+    display: none;  
+}
+#gameOverText1{
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+#gameOverText2{
+    margin-top: 25px;
+}
+#mathGame{
+    height: 320px;
+    width: 460px;
+    position: absolute;
+    top: 310px;
+    left: 50%;
+    z-index: 2;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;   
+}
+#picture{
+    width: 100px;
+    left: 10%;
+    padding: 10px;
+    position: relative;
+}
+#pictureGameOver{
+    height: 100px;
+    width: 460px;
+    padding: 10px;
+}
+
+#stopMusic{
+    bottom: 83%;
+    position: absolute;
+    left: 8%;
+    display: block;
+    z-index: 2;
+    transform: translate(-50%, -50%);   
+}
+#playerOn{
+    display: none;    
+}
+#playerOff{
+    display: block;    
+}
