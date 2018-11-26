@@ -56,3 +56,29 @@ The game is going for a 60 sec and once we are out of time, then we're going to 
 
 ![5](https://user-images.githubusercontent.com/28005338/48586521-7bd41a00-e930-11e8-91d5-1fc943819a9a.png)
 
+
+
+
+## Project 3: Fruits Game
+
+
+In this session has been created a game using **HTML**,  **CSS**,  **JS** and **JQuery**.
+
+
+Once we click on the **Start Button** fruits start falling down from the upper part of the screen and we are
+supposed to slice them in order to get points:
+
+- if we sliced the fruit our score goes up by 1;
+
+- if we missed the fruit then we're going to lose one trial (which is indicated at the left upper side of the screen as an amount of hearts corresponds to the amount of the trials left). 
+
+![4](https://user-images.githubusercontent.com/28005338/49036385-e51d1e00-f1b7-11e8-8cfb-3fa0637b84ed.png)
+
+Once we lose all the three initial trials then it is going to be **Game Over**.
+
+![2](https://user-images.githubusercontent.com/28005338/49036436-0716a080-f1b8-11e8-897c-2213daa9a927.png)
+
+The game is decorated with a sound of slicing fruit which plays once we do such a movement. Fruits falling down with an arbitrary speed and from the arbitrary part of the upper border (bounded by the game window).
+
+
+The structure and initial decoration based on the **Project 2**, but the mechanism of the game has been significantly changed according to game needs.
