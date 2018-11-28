@@ -100,3 +100,18 @@ The main feature of this project is that the website is responsive which means t
 
 ![screenshot at nov 28 22-19-03](https://user-images.githubusercontent.com/28005338/49183658-bc368d80-f35d-11e8-95fd-df4ed8cf2220.png)
 
+## Project 5: Company Website
+
+In this Project he front page of a company website which offers web development services has been created.
+
+![screenshot at nov 28 22-17-33](https://user-images.githubusercontent.com/28005338/49183820-28b18c80-f35e-11e8-8a18-fa1f9f4dab3b.png)
+
+The website has got a nice background picture which is fixed when we scroll down.
+
+Also it was create a nice collapsible navigation bar with a nice brand image and a main part
+
+has been placed inside a jumbotron and it's adaptible to different device sizes.
+
+![screenshot at nov 28 22-18-09](https://user-images.githubusercontent.com/28005338/49184208-12580080-f35f-11e8-9d1a-df06f29ab087.png)
+
+
