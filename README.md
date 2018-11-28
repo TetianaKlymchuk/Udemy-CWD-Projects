@@ -82,3 +82,21 @@ The game is decorated with a sound of slicing fruit which plays once we do such 
 
 
 The structure and initial decoration based on the **Project 2**, but the mechanism of the game has been significantly changed according to game needs.
+
+
+## Project 4: Application Landing Page 
+
+In this session has been created a nice starting web-page using **HTML**,  **CSS** and **Bootstrap**.
+
+![screenshot at nov 28 22-16-03](https://user-images.githubusercontent.com/28005338/49183743-ee47ef80-f35d-11e8-8f9b-0d23d7f849b1.png)
+
+It leads users through a link to explore great functionalities of an app that is selling on the App Store or Google
+
+Play, and so, it is possible to be redirected from this page to the App Store or Google Play to purchase the app.
+
+![screenshot at nov 28 22-16-19](https://user-images.githubusercontent.com/28005338/49183652-b771d980-f35d-11e8-9190-a98beea5a23c.png)
+
+The main feature of this project is that the website is responsive which means that he's  adopting for two different device. 
+
+![screenshot at nov 28 22-19-03](https://user-images.githubusercontent.com/28005338/49183658-bc368d80-f35d-11e8-95fd-df4ed8cf2220.png)
+
