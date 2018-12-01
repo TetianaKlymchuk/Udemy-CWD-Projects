@@ -106,6 +106,7 @@ video#bgvideo{
 
 #contactImage{
   width: 90%;
+  max-width: 200px;
   padding-bottom: 20px;
   margin: 5%;
 }
@@ -123,6 +124,22 @@ video#bgvideo{
   padding-bottom: 50px;
 }
 
+.contactHeadingEmail{
+  margin-top: 25px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+.contactHeading a{
+  color: #fff;
+  display: inline-block;
+}
+
+.contactHeading a:hover{
+  transform: scale(1.1);
+}
+
 .contactImage{
   height: 80px;   
 }
@@ -135,6 +152,9 @@ video#bgvideo{
   .carousel-inner h2{
       font-size: 23px;   
   }
+  #contactImage{
+    width: 150px;
+  }
 }
 @media (max-width:400px){
   .carousel-inner .item img{
@@ -145,6 +165,9 @@ video#bgvideo{
   }
   .navbar-brand{
       font-size: 12px;   
+  }
+  #contactImage{
+    width: 120px;
   }
 }
 /*Style the footer*/
