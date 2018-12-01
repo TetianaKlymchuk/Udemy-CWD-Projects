@@ -102,7 +102,8 @@ The main feature of this project is that the website is responsive which means t
 
 ## Project 5: Company Website
 
-In this Project he front page of a company website which offers web development services has been created.
+
+In this Project the front page of a company website which offers web development services has been created.
 
 ![screenshot at nov 28 22-17-33](https://user-images.githubusercontent.com/28005338/49183820-28b18c80-f35e-11e8-8a18-fa1f9f4dab3b.png)
 
@@ -113,5 +114,31 @@ Also it was create a nice collapsible navigation bar with a nice brand image and
 has been placed inside a jumbotron and it's adaptible to different device sizes.
 
 ![screenshot at nov 28 22-18-09](https://user-images.githubusercontent.com/28005338/49184208-12580080-f35f-11e8-9d1a-df06f29ab087.png)
+
+
+## Project 6: 'My Personal Photographer Website'
+
+In this session has been created a web-page using **HTML**,  **CSS** and **Bootstrap**.
+
+The main features of this web site are:
+
+- a beautiful background video which spreads across the whole web page:
+
+![screenshot at dec 01 13-51-16](https://user-images.githubusercontent.com/28005338/49330326-2da85300-f58d-11e8-8b94-32ad5f123852.png)
+
+- a styled navbar which is linked to the different sections of the website:
+
+![screenshot at dec 01 13-51-37](https://user-images.githubusercontent.com/28005338/49330327-2ed98000-f58d-11e8-8781-ed97928cdbc6.png)
+
+- a nice carousel slider:
+
+![screenshot at dec 01 13-52-06](https://user-images.githubusercontent.com/28005338/49330329-30a34380-f58d-11e8-8d92-2beac8766d9f.png)
+
+- a possibility to adopt all the content for the different size of devices:
+
+![screenshot at dec 01 17-20-27](https://user-images.githubusercontent.com/28005338/49330347-7eb84700-f58d-11e8-8572-6e292babd5d4.png)
+
+
+
 
 
