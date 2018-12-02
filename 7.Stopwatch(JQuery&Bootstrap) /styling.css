@@ -1,0 +1,79 @@
+
+body { 
+  background: url(images/sheep.jpg) center center fixed;
+  background-size: cover;
+  color: #fff;
+}
+
+#header {
+  font-size: 7vw;
+  text-align: center;
+}
+
+#lap {
+  text-align: right;
+  font-size: 4vw;
+}
+
+#time {
+  text-align: center;
+  font-size: 10vw;
+}
+
+#controls {
+  margin-bottom: 100px;
+}
+
+.control {
+  color:white;
+  background-color: #d7A04e;
+  height: 10vw;
+  width: 10vw;
+  border-radius: 100%;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 2.5vw;
+  cursor: pointer;
+}
+
+.control:active {
+  color:#d7A04e;
+  background-color: #fff;
+}
+
+#laps {
+  max-height: 270px;
+  overflow-y: scroll; 
+  margin-bottom: 70px;
+}
+.lap {
+  height: 50px;
+  border-bottom: 1px solid white;
+  margin: 15px;
+}
+
+.laptimeTitle {
+  font-size: 1.5em;
+  float: left;
+}
+
+.laptime {
+  font-size: 2em;
+  float: right;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(255,255,255);
+  color: rgb(5, 5, 5);
+  padding: 10px 0;
+  font-size: 15px;
+  z-index: 10;
+}
+
+
+
+
