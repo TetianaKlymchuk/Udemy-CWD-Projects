@@ -148,7 +148,7 @@ In this session a **Stopwatch Application** has been created.
 
 Once we load the page we see two buttons **Start** and **Lap**:
 
-![screenshot at dec 02 20-45-56](https://user-images.githubusercontent.com/28005338/49344386-991a1f80-f676-11e8-8e4e-0f0d9244aca1.png)
+![screenshot at dec 02 22-17-39](https://user-images.githubusercontent.com/28005338/49345094-480f2900-f680-11e8-988c-fb3044f4e44d.png)
 
 If we click on the **Start** button, we can see two counters started:
 
@@ -163,7 +163,7 @@ the **Resume** item.
 If we click on the **Lap** button then the lap time is restarting and 
 we see the information about the previous lap in the list in the bottom of the page:
 
-![screenshot at dec 02 20-46-23](https://user-images.githubusercontent.com/28005338/49344387-9b7c7980-f676-11e8-97f1-ba975dabe057.png)
+![screenshot at dec 02 22-18-10](https://user-images.githubusercontent.com/28005338/49345095-49d8ec80-f680-11e8-83bf-27c5a0b95dd8.png)
 
 
 
