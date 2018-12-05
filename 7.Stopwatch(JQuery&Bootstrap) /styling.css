@@ -30,8 +30,8 @@ body {
   height: 10vw;
   width: 10vw;
   border-radius: 100%;
+  line-height: 10vw;
   text-align: center;
-  padding: 20px 0;
   font-size: 2.5vw;
   cursor: pointer;
 }
@@ -49,10 +49,11 @@ body {
 .lap {
   height: 50px;
   border-bottom: 1px solid white;
-  margin: 15px;
+  margin: 10px;
+  line-height: 50px;
 }
 
-.laptimeTitle {
+.laptimetitle {
   font-size: 1.5em;
   float: left;
 }
