@@ -42,11 +42,11 @@ margin: 10px auto;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: (-50%, -50%);
-    -webkit-transform: (-50%, -50%);
-    -moz-transform: (-50%, -50%);
-    -ms-transform: (-50%, -50%);
-    -o-transform: (-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
 }
 
 #thicknessInput {
@@ -59,37 +59,46 @@ margin: 10px auto;
     border: 1px solid;
     border-color: rgba(122, 174, 229, 0.5);
     margin: 10px auto;
+    
+}
+
+#paint { 
+    background-color: #fff;
+    cursor: crosshair;
 }
 
 /*inputs container*/
 .inputContainer2 {
-    width: 399px;
+    width: 500px;
     margin: 0 auto;
 }
 
 /*erase, save and reset buttons*/
 .input2 {
-    width: 133px;
     color: #5BB4E7;
     font-size: 1.3em;
-    float: left;
-
+    display: inline-block;
+    margin: 3px 25px;
 }
 
 .button {
     background: white;
-    height: 50px;
+    height: 20px;
+    line-height: 20px;
+    width: 70px;
     padding: 10px;
     border-radius: 3px;
     font-weight: bold;
     cursor: pointer;
     box-shadow: 0 4px rgba(0,0,0, 0.2);
     position: relative;
+    display: inline-block;
+    user-select: none;
 }
 
 .button:hover {
     color: white;
-    background: linear-gradient(white, rgba(67,169,228,0.3));
+    background: linear-gradient(white, rgba(67,169,228,0.5));
 }
 
 .button:active {
