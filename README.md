@@ -166,5 +166,16 @@ we see the information about the previous lap in the list in the bottom of the p
 ![screenshot at dec 02 22-18-10](https://user-images.githubusercontent.com/28005338/49345095-49d8ec80-f680-11e8-83bf-27c5a0b95dd8.png)
 
 
+## Project 8: 'Drawing Application'
+
+I this project we created a **Drawing Application**.
+
+This application has a color inputs where the user can pick any color he wants (if there is no such a color in a simple template, he can open the full spectr by clicking on "more..." button).
+
+Also the application has a scroll which can control the width of the drawing line.
+
+There are few options what we can do with the picture: save it pressing the **Save** button (the work will be saved in a local storage); reset it using the **Reset** button o erase a picture using **Erase** button. 
+
+![screenshot at dec 07 17-08-30](https://user-images.githubusercontent.com/28005338/49658934-69d32c00-fa43-11e8-9140-e2e4f86ca825.png)
 
 
