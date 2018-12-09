@@ -179,3 +179,28 @@ There are few options what we can do with the picture: save it pressing the **Sa
 ![screenshot at dec 07 17-08-30](https://user-images.githubusercontent.com/28005338/49658934-69d32c00-fa43-11e8-9140-e2e4f86ca825.png)
 
 
+## Project 9: 'Contact Form'
+
+I this project we created a simple **Contact Form** using **PHP**.
+
+![screenshot at dec 09 19-53-44](https://user-images.githubusercontent.com/28005338/49701504-8d39da80-fbed-11e8-8734-2d15fb163560.png)
+
+One of the main advantage is that the user's input has been checked for errors and for missing information:
+
+![screenshot at dec 09 19-59-20](https://user-images.githubusercontent.com/28005338/49701507-90cd6180-fbed-11e8-8dcd-0a275a5d4926.png)
+
+using FILTER_SANITIZE_STRING, FILTER_SANITIZE_EMAIL and FILTER_VALIDATE_EMAIL:
+
+![screenshot at dec 09 19-59-59](https://user-images.githubusercontent.com/28005338/49701508-92972500-fbed-11e8-842d-77e5c494b5b7.png)
+
+If the data was put correctly, the message has been sent to a given email address with the following information:
+
+**Subject:** Contact;
+
+**Name:** Input Name;
+
+**Email:** input email;
+
+**Message:** Input message.
+
+![screenshot at dec 09 19-58-51](https://user-images.githubusercontent.com/28005338/49701505-8f039e00-fbed-11e8-8e0c-2958282e0b23.png)
