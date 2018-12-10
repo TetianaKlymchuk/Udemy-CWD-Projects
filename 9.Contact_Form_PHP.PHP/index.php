@@ -17,6 +17,9 @@
                 margin-top: 50px;
                 border-radius: 15px;
             }
+            .margin {
+                margin-bottom: 15px;
+            }
         </style> 
 
     </head>
@@ -95,7 +98,7 @@ if($_POST["submit"]){
                 <label for="message">Message:</label>
                     <textarea name="message" id="message" class="form-control" rows="5"><?php echo $_POST["message"];?></textarea>
                 </div>
-                <input type="submit" name="submit" class="btn btn-success btn-lg" value="Send Message">
+                <input type="submit" name="submit" class="btn btn-success btn-lg margin" value="Send Message">
             
             </form>
         </div>
