@@ -204,3 +204,34 @@ If the data was put correctly, the message has been sent to a given email addres
 **Message:** Input message.
 
 ![screenshot at dec 09 19-58-51](https://user-images.githubusercontent.com/28005338/49701505-8f039e00-fbed-11e8-8e0c-2958282e0b23.png)
+
+## Project 10: 'Upload Form'
+
+I this **Upload Form** was created using **PHP**.
+
+![screenshot at dec 11 16-18-51](https://user-images.githubusercontent.com/28005338/49811383-75846280-fd63-11e8-9c8f-ba09a56047cd.png)
+
+The user can upload a file which, in case of correct input data, will be saved in the proper location and the user will get the message that his file was uploaded succesfully:
+
+![screenshot at dec 11 16-21-39](https://user-images.githubusercontent.com/28005338/49811535-c4ca9300-fd63-11e8-8ecc-6c4e772cae11.png)
+![screenshot at dec 11 16-22-35](https://user-images.githubusercontent.com/28005338/49811538-c6945680-fd63-11e8-8dd8-71ca6283ed92.png)
+
+This form accept only pdf/text files, thus in case of a wrong format, the user will get the warning message that this form does not accept such type of files. 
+
+![screenshot at dec 11 16-19-33](https://user-images.githubusercontent.com/28005338/49811674-065b3e00-fd64-11e8-8b9b-3d998c701d5d.png)
+
+Also it is not possible to submit the same file twice. In case of a repetitive inten, the user will get the warning message that the file was already submitted. 
+![screenshot at dec 11 16-25-53](https://user-images.githubusercontent.com/28005338/49811754-330f5580-fd64-11e8-979f-097340e04d30.png)
+
+The message has been shown to the user contains the following information:
+
+**FILE:** File name;
+
+**FILE TYPE:** File type;
+
+**TEMPORARY LOCATION:** /...;
+
+**FILE SIZE:** file size.
+
+**PERMANENT DESTINATION:** uploads/fileName.fileType.
+
