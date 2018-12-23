@@ -60,7 +60,7 @@ if($_POST["submit"]){
         if(file_exists($permanentdestination)){
             $errors .= $fileAlreadyExists;   
         }
-        if($size > 3*1024*1024){
+        if($size > 1024){
             $errors .= $fileTooLarge;   
         }
         if(!in_array($type, $allowedFormats)){

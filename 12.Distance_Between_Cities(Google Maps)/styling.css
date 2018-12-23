@@ -1,0 +1,65 @@
+/*styling.css*/
+/*add font family, background image*/
+
+body {
+    background: url(road.jpg) center center fixed;
+    background-size: cover; 
+    color: #1aa3ff;
+    font-family: Arvo, serif;
+}
+
+.all {
+    background-image: linear-gradient(rgb(5, 5, 5, 1), rgba(5,5,5,0));
+}
+
+/*Jumbotron*/
+.jumbotron {
+    background-color: transparent;
+    margin: 0;
+    padding: 10px;
+}
+
+.jumbotron h1 {
+    letter-spacing: 2.5px; 
+    padding-left: 10px;
+    padding-right: 10px;  
+}
+.jumbotron h1, .jumbotron p {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#submit {
+    background-color: #1aa3ff; 
+    margin-left: 0px;
+}
+
+/*map*/
+#googleMap {
+    width: 100%;   
+    height: 250px;
+    margin: 10px auto;
+}
+
+/*output box*/
+#output {
+    text-align: center;
+    font-size: 2em;
+    margin: 20px auto;
+}
+
+.form-horizontal {
+    height: 200px;
+    margin-top: 30px;
+}
+
+.formInput {
+    height: 40px;
+    margin-top: 5px;
+}
+
+.button{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
