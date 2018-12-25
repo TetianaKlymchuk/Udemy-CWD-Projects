@@ -235,3 +235,34 @@ The message has been shown to the user contains the following information:
 
 **PERMANENT DESTINATION:** uploads/fileName.fileType.
 
+In this session you are going to create a professional up calculating traveling distances between cities
+
+
+## Project 11: 'Distance betwen cities App.'
+
+In this project has been practice mosly a usage of Google Maps API.
+
+![screenshot at dec 23 21-30-40](https://user-images.githubusercontent.com/28005338/50425161-6af0bf80-0871-11e9-809c-89ab3676df10.png)
+
+Its an application which calculates a distance between two input cities, showes a map with a driving road on it and
+separately shows a distance in miles and approximate driving time in a separate inside box.
+
+
+![screenshot at dec 23 21-31-40](https://user-images.githubusercontent.com/28005338/50425164-70e6a080-0871-11e9-8d24-9a806960f489.png)
+
+The user needs to fill in the origin and the destination fields.
+
+Once they start typing a city they get a few choices to pick up from an autocomplete.
+
+
+![screenshot at dec 23 21-31-07](https://user-images.githubusercontent.com/28005338/50425163-6e844680-0871-11e9-99c2-6ad1320e0e37.png)
+
+If for some reason one of the input field is empty then an error message will appears instead of the box with the info,
+otherwise all the information with the duration and road appears.
+
+![screenshot at dec 23 21-31-58](https://user-images.githubusercontent.com/28005338/50425165-7348fa80-0871-11e9-93bb-6f5b31cc9382.png)
+
+The Application is adaptive to different sizes of a screen:
+
+![screenshot at dec 23 21-32-24](https://user-images.githubusercontent.com/28005338/50425169-75ab5480-0871-11e9-8c63-ab520cd0aa83.png)
+
