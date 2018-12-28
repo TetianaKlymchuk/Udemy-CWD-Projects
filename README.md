@@ -266,3 +266,17 @@ The Application is adaptive to different sizes of a screen:
 
 ![screenshot at dec 23 21-32-24](https://user-images.githubusercontent.com/28005338/50425169-75ab5480-0871-11e9-8c63-ab520cd0aa83.png)
 
+## Project 12: 'Social API's'
+This project has been created to practice including **Social Network API** for different social platforms.
+
+![screenshot at dec 28 22-10-48](https://user-images.githubusercontent.com/28005338/50528805-cf6d8200-0af0-11e9-919f-6403016b999f.png)
+
+It has been created:
+
+- Google Plus like button; 
+- Facebook like button, share button;
+- Twitter share button;
+- Twitter timeline.
+
+![screenshot at dec 28 22-11-20](https://user-images.githubusercontent.com/28005338/50528807-d09eaf00-0af0-11e9-85f0-f394c4d3546b.png)
+![screenshot at dec 28 22-11-51](https://user-images.githubusercontent.com/28005338/50528810-d4323600-0af0-11e9-806f-da3b767f7863.png)
