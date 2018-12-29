@@ -1,0 +1,67 @@
+/*index.css*/
+/*add background picture to page1*/
+#page1{
+    background: url(images/trees.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color: #fff;
+    text-align: center;
+    font-family: Lobster, serif;
+}
+
+#page2{
+    background: url(images/men.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color: #fff;
+    text-align: center;
+    font-family: Lobster, serif;
+}
+
+#page3{
+    background: url(images/light.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color: #fff;
+    text-align: center;
+    font-family: Lobster, serif;
+}
+
+
+/*error message*/
+#error{
+    background-color: #D87777;
+    width: 50%;
+    margin: 20px auto;
+    font-size: 20px;
+}
+
+/*read word*/
+#result{
+    font-size: 50px;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 5% 0;
+}
+
+/* Hide the number input */
+.full-width-slider input {
+    display: none !important;
+}
+.full-width-slider .ui-slider-track {
+    margin-left: 15px;
+}
+  
+.contactImage{
+    height: 50px;   
+}
+
+#page2Header{
+    margin-bottom: 20px;
+}
+
+.item {
+    height: 20px;
+}
