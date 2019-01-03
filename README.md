@@ -280,3 +280,31 @@ It has been created:
 
 ![screenshot at dec 28 22-11-20](https://user-images.githubusercontent.com/28005338/50528807-d09eaf00-0af0-11e9-85f0-f394c4d3546b.png)
 ![screenshot at dec 28 22-11-51](https://user-images.githubusercontent.com/28005338/50528810-d4323600-0af0-11e9-806f-da3b767f7863.png)
+
+## Project 13: 'Speed reading App'
+This project has been created to practice  **JQuery Mobile**.
+
+![screenshot at dec 29 23-02-37](https://user-images.githubusercontent.com/28005338/50633911-36ee5c00-0f4d-11e9-9ad4-b2b24cb68329.png)
+
+While a user open an app, he will see the text input field and the button **Start Reading**. Once the user put some text inside, he would be able to start reading it word by word:
+
+![image](https://user-images.githubusercontent.com/28005338/50634174-0a870f80-0f4e-11e9-9a71-11b561616ff0.png)
+
+
+The user is able to pause or resume the reading anytime and also he is able to control the progress of the reading and go backward or forward.
+
+Moreover, it is also possible to control the font size of the text and the reading speed.
+
+If the user press the **Start** button without text inserted, the following error message appears:
+
+![image](https://user-images.githubusercontent.com/28005338/50634357-a31d8f80-0f4e-11e9-8dd2-bee9efee3197.png)
+
+In the menu, which is located at the bottom of the page, it is possible to move to the **About** page and **Contact** page.
+
+In **About** page there are a list of all anouther projects, created during this course
+
+![image](https://user-images.githubusercontent.com/28005338/50634504-3060e400-0f4f-11e9-8716-5c4bf01f17fc.png)
+
+In **Conact** page there are links to social accounts, such as Facebook, Git and LinkedIn. 
+
+![image](https://user-images.githubusercontent.com/28005338/50634519-35259800-0f4f-11e9-8da5-0a1d4cc42e4e.png)
